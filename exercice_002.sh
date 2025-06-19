@@ -1,1 +1,8 @@
-mkdir -p exercice_002 && hostname | sed 's/^/Hostname: /'| tee exercice_002/hostname.txt
+nom=$*
+
+if [ "$nom" ]
+then
+    echo "Hello, $nom !"
+else
+    echo "Hello,  !"
+fi

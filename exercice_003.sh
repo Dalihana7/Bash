@@ -1,1 +1,12 @@
-mkdir -p exercice_003 && uname -a| sed 's/^/System: /'| tee exercice_003/uname.txt
+if [ "$1" == "hello" ]
+then
+    echo "Bonjour"
+elif [ "$1" == "user" ]
+then   
+    whoami
+elif [ "$1" == "machine" ]
+then   
+    hostname
+else 
+    echo "Argument invalide."
+fi
