@@ -1,1 +1,1 @@
-mkdir exercice_004 && cd exercice_004 && df -h && uname -a && free -h
+mkdir -p exercice_004 && whoami | sed 's/^/User: /'| tee exercice_004/whoami.txt

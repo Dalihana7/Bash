@@ -1,1 +1,1 @@
-mkdir exercice_009 && touch ./exercice_009/script.sh && chmod 755 exercice_009/script.sh && ls -l exercice_009/script.sh
+mkdir -p exercice_009/test && touch exercice_009/test/a.txt exercice_009/test/b.txt | find exercice_009/ -type f | sed 's/^/File: /'| tee exercice_009/list.txt

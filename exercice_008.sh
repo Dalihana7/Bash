@@ -1,0 +1,1 @@
+mkdir -p exercice_008 && date | sed 's/^/Date: /'| tee exercice_008/system_report.txt && hostname | sed 's/^/Host: /'| tee -a exercice_008/system_report.txt && uptime | sed 's/^/Uptime: /'| tee -a exercice_008/system_report.txt 

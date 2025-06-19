@@ -1,1 +1,1 @@
-mkdir exercice_003 && touch ./exercice_003/a.txt ./exercice_003/b.txt ./exercice_003/c.txt && chmod 444 ./exercice_003/a.txt ./exercice_003/b.txt ./exercice_003/c.txt
+mkdir -p exercice_003 && uname -a| sed 's/^/System: /'| tee exercice_003/uname.txt

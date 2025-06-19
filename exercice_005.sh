@@ -1,1 +1,1 @@
-mkdir exercice_005 && man ls
+mkdir -p exercice_005 && touch uptime| sed 's/^/Uptime: /'| tee exercice_005/uptime.txt
